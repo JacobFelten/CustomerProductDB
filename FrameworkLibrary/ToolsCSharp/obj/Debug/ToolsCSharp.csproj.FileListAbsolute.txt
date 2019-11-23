@@ -1,0 +1,6 @@
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\bin\Debug\ToolsCSharp.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\bin\Debug\ToolsCSharp.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\obj\Debug\ToolsCSharp.csprojAssemblyReference.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\obj\Debug\ToolsCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\obj\Debug\ToolsCSharp.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\FrameworkLibrary\ToolsCSharp\obj\Debug\ToolsCSharp.pdb

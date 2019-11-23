@@ -1,0 +1,16 @@
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\ProductTests.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\ProductTests.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\CustomerProductPropsClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\nunit.framework.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\ToolsCSharp.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\CustomerProductPropsClasses.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\nunit.framework.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\nunit.framework.xml
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\ToolsCSharp.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\obj\Debug\ProductTests.csprojAssemblyReference.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\obj\Debug\ProductTests.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\obj\Debug\ProductTests.csproj.CopyComplete
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\obj\Debug\ProductTests.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\obj\Debug\ProductTests.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\CustomerProductDBClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\ProductTests\bin\Debug\CustomerProductDBClasses.pdb

@@ -1,0 +1,11 @@
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\CustomerProductDBClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\CustomerProductDBClasses.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\CustomerProductPropsClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\ToolsCSharp.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\ToolsCSharp.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\bin\Debug\CustomerProductPropsClasses.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\obj\Debug\CustomerProductDBClasses.csprojAssemblyReference.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\obj\Debug\CustomerProductDBClasses.csproj.CoreCompileInputs.cache
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\obj\Debug\CustomerProductDBClasses.csproj.CopyComplete
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\obj\Debug\CustomerProductDBClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerProductDBClasses\obj\Debug\CustomerProductDBClasses.pdb
