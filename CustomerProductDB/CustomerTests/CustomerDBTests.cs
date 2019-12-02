@@ -7,6 +7,11 @@ using NUnit.Framework;
 using CustomerProductPropsClasses;
 using CustomerProductDBClasses;
 
+using System.Data;
+using System.Data.SqlClient;
+
+using DBCommand = System.Data.SqlClient.SqlCommand;
+
 namespace CustomerTests
 {
     [TestFixture]
@@ -17,9 +22,14 @@ namespace CustomerTests
         CustomerProps newProps;
 
         [SetUp]
-        public void SetUpTests()
+        public void TestResetDatabase()
         {
             db = new CustomerDB(dataSource);
+            DBCommand command = new DBCommand();
+            command.CommandText = "usp_testingResetData";
+            command.CommandType = CommandType.StoredProcedure;
+            db.RunNonQueryProcedure(command);
+
             newProps = new CustomerProps
             {
                 name = "Mouse, Mickey",
@@ -29,7 +39,7 @@ namespace CustomerTests
                 zipCode = "10001",
             };
         }
-        
+
         [Test]
         public void RetriveTest()
         {
@@ -53,7 +63,7 @@ namespace CustomerTests
         public void RetriveAllTest()
         {
             List<CustomerProps> propsList = (List<CustomerProps>)db.RetrieveAll(db.GetType());
-            Assert.AreEqual(699, propsList.Count);
+            Assert.AreEqual(696, propsList.Count);
         }
 
         [Test]
@@ -68,7 +78,6 @@ namespace CustomerTests
             Assert.AreEqual("Orlando", props.city);
             Assert.AreEqual("FL", props.state);
             Assert.AreEqual("10001", props.zipCode);
-            db.Delete(props);
         }
 
         [Test]
@@ -87,8 +96,6 @@ namespace CustomerTests
             CustomerProps props = (CustomerProps)db.Create(newProps);
             props.ConcurrencyID++;
             Assert.Throws<Exception>(() => db.Delete(props));
-            props.ConcurrencyID--;
-            db.Delete(props);
         }
 
         [Test]
@@ -110,7 +117,6 @@ namespace CustomerTests
             Assert.AreEqual("CA", props.state);
             Assert.AreEqual("99999", props.zipCode);
             Assert.AreEqual(2, props.ConcurrencyID);
-            db.Delete(props);
         }
 
         [Test]
@@ -125,8 +131,6 @@ namespace CustomerTests
             int id = props.ID;
             props.ConcurrencyID++;
             Assert.Throws<Exception>(() => db.Update(props));
-            props.ConcurrencyID--;
-            db.Delete(props);
         }
     }
 }

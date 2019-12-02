@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using CustomerProductPropsClasses;
 using CustomerProductDBClasses;
+using System.Data;
+using System.Data.SqlClient;
+
+using DBCommand = System.Data.SqlClient.SqlCommand;
 
 namespace ProductTests
 {
@@ -20,6 +24,11 @@ namespace ProductTests
         public void SetUpTests()
         {
             db = new ProductDB(dataSource);
+            DBCommand command = new DBCommand();
+            command.CommandText = "usp_testingResetData";
+            command.CommandType = CommandType.StoredProcedure;
+            db.RunNonQueryProcedure(command);
+
             newProps = new ProductProps
             {
                 productCode = "ABC123",
@@ -65,7 +74,6 @@ namespace ProductTests
             Assert.AreEqual("Awesome Sauce!", props.description);
             Assert.AreEqual(100m, props.unitPrice);
             Assert.AreEqual(12, props.onHandQuantity);
-            db.Delete(props);
         }
 
         [Test]
@@ -84,8 +92,6 @@ namespace ProductTests
             ProductProps props = (ProductProps)db.Create(newProps);
             props.ConcurrencyID++;
             Assert.Throws<Exception>(() => db.Delete(props));
-            props.ConcurrencyID--;
-            db.Delete(props);
         }
 
         [Test]
@@ -105,7 +111,6 @@ namespace ProductTests
             Assert.AreEqual(2m, props.unitPrice);
             Assert.AreEqual(97214, props.onHandQuantity);
             Assert.AreEqual(2, props.ConcurrencyID);
-            db.Delete(props);
         }
 
         [Test]
@@ -119,8 +124,6 @@ namespace ProductTests
             int id = props.ID;
             props.ConcurrencyID++;
             Assert.Throws<Exception>(() => db.Update(props));
-            props.ConcurrencyID--;
-            db.Delete(props);
         }
     }
 }

@@ -14,3 +14,5 @@ C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerT
 C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerTests\obj\Debug\CustomerTests.pdb
 C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerTests\bin\Debug\CustomerProductDBClasses.dll
 C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerTests\bin\Debug\CustomerProductDBClasses.pdb
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerTests\bin\Debug\CustomerProductClasses.dll
+C:\Users\Jacob\Documents\Lane Stuff\CS234N\Framework\CustomerProductDB\CustomerTests\bin\Debug\CustomerProductClasses.pdb

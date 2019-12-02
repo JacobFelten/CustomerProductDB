@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerTests.cs" />
     <Compile Include="CustomerDBTests.cs" />
     <Compile Include="CustomerPropsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +56,10 @@
     <ProjectReference Include="..\..\FrameworkLibrary\ToolsCSharp\ToolsCSharp.csproj">
       <Project>{7f06622a-845c-4b38-9e3f-521189851bbd}</Project>
       <Name>ToolsCSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomerProductClasses\CustomerProductClasses.csproj">
+      <Project>{d14184b4-0fc4-4892-8344-df5275364a34}</Project>
+      <Name>CustomerProductClasses</Name>
     </ProjectReference>
     <ProjectReference Include="..\CustomerProductDBClasses\CustomerProductDBClasses.csproj">
       <Project>{b5fb7556-080d-4fe3-873a-ac9ebf2b64a4}</Project>
